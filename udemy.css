@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid black;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.navbar__s1__title{
+    color: #A435F0;
+}
+.navbar__s2{
+     width: 60%;
+     border: 1px solid black;
+     border-radius: 30px;
+     padding: 10px;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     
+}
+.navbar__s2__input{
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar__s3{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar__s4{
+    display: none;
+}
+.login{
+    padding: 5px;
+    background-color: white;
+    font: bold;
+}
+.sign{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font: bold;
+}
+.recommanded{
+    margin: 5px;
+    padding: 10px;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+.recommanded__container{
+       margin-top: 10px;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 10px;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+   grid-template-columns: repeat(3, 1fr);
+
+}
+.topics__container p{
+    border: 2px solid gray;
+    padding: 10px;
+}
+.one p{
+    column-gap: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer__one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer__two{
+    margin: 20px;
+    align-items: center;
+}
+.footer__one p{
+    margin: 20px;
+}
